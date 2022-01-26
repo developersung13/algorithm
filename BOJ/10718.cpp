@@ -2,15 +2,10 @@
 
 using namespace std;
 
-int N, total;
-
 int main(int argc, const char* argv[]) {
 	ios_base::sync_with_stdio(false);
-	cin.tie(NULL);
+	cin.tie(NULL); cout.tie(NULL);
 
-	cin >> N;
-
-	for (int k = 1; k <= N; k++) total += k;
-	cout << total;
+	for (int k = 0; k < 2; k++) cout << "강한친구 대한육군" << '\n';
 	return 0;
 }
