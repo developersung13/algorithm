@@ -22,5 +22,5 @@ public:
 
 int main() {
     AddSub ob(12, 15);
-    cout << ob.add() << " " << ob.sub();
+    cout << ob.add() << ' ' << ob.sub();
 }

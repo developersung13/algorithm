@@ -22,5 +22,5 @@ public:
 
 int main() {
     Rectangle rect(5, 3);
-    cout << rect.width << " " << rect.height << " " << rect.area();
+    cout << rect.width << ' ' << rect.height << ' ' << rect.area();
 }

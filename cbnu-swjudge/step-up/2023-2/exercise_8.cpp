@@ -30,7 +30,7 @@ public:
     void setPoint(int x, int y) { move(x, y); }
     void setColor(string color) { this->color = color; }
     void show() {
-        cout << color << " " << getx() << " " << gety() << endl;
+        cout << color << ' ' << getx() << ' ' << gety() << endl;
     }
 };
 
