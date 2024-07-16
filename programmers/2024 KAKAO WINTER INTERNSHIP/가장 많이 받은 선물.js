@@ -1,4 +1,4 @@
-function solution2(friends, gifts) {
+function solution(friends, gifts) {
   var answer = 0;
 
   const friendsNum = friends.length;
