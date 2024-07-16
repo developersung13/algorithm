@@ -1,4 +1,4 @@
-function solution2(friends: string[], gifts: string[]): number {
+function solutionTS(friends: string[], gifts: string[]): number {
   var answer = 0;
 
   const friendsNum: number = friends.length;
