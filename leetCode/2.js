@@ -11,7 +11,7 @@
  * @return {ListNode}
  */
 var addTwoNumbers = function (l1, l2) {
-  let tempHead = new ListNode(0);
+  const tempHead = new ListNode(0);
   let current = tempHead;
   let carry = 0;
 
@@ -29,5 +29,5 @@ var addTwoNumbers = function (l1, l2) {
     if (l2 !== null) l2 = l2.next;
   }
 
-  return tempHead.next; // 첫 번째 더미 노드 제외 후 반환
+  return tempHead.next;
 };
